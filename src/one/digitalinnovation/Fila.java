@@ -14,7 +14,7 @@ public class Fila {
 	}
 	
 	public No first() {
-		if(!isEmpty()) {
+		if(!this.isEmpty()) {
 			No primeiroNo = refNoEntradaFila;
 			while(true) {
 				if(primeiroNo.getRefNo() != null) {
@@ -23,6 +23,7 @@ public class Fila {
 					break;
 				}
 			}
+			return primeiroNo;
 		}
 		return null;
 	}
