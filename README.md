@@ -1,2 +1,2 @@
 # Estrutura de Dados - Fila
-# [FIFO: first in, first out
+# [FIFO: first in, first out]
